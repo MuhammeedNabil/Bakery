@@ -1,0 +1,307 @@
+* {
+  padding: 0%;
+  margin: 0;
+}
+.clr {
+  clear: both;
+}
+
+.header{
+  font-size: xx-large;
+  margin: 50px 0px 30px;
+}
+
+/* top navigation */
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  padding: 0px 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-top: 3px solid transparent;
+}
+
+/* Top navigation image logo */
+.topnav img {
+  text-align: left;
+  width: 12%;
+  padding: 14px 0;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  border-top: rgb(22, 189, 58) solid 3px;
+  color: white;
+}
+
+/* bg image */
+.main-bg {
+  background-image: url(Images/drew-coffman-1872.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+/* welcome words */
+.writing {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  padding: 20%;
+}
+.writing h5 {
+  margin: 15px 0px;
+}
+.writing h1 {
+  margin: 15px 0px;
+}
+.writing p {
+  font-size: large;
+  margin: 15px 0px;
+}
+.writing button {
+  color: rgb(255, 255, 255);
+  padding: 15px 28px;
+  margin: 15px 10px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.learn-btn {
+  border: 2px solid transparent;
+  border-radius: 1px;
+  background-color: #8e7754;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: 0.5px white solid;
+}
+
+/* first div */
+.dish1 {
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px 50px;
+}
+.side-img {
+  width: 45%;
+  float: left;
+  margin-right: 40px;
+}
+.text1 p {
+  line-height: 27px;
+  color: gray;
+  font-size: 18px;
+}
+
+.text1 ul {
+  margin: 20px;
+  color: gray;
+  list-style: none;
+}
+
+.text1 ul li {
+  margin: 15px 0px;
+}
+
+
+.text1 ul li img {
+  width: 30px;
+  border: #353330 solid 1px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* second div */
+.dish2 {
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px 50px;
+ 
+}
+.dish2 .side-img {
+  float: right;
+  margin-left: 40px;
+  margin-right: 0;
+}
+
+.text2 p {
+  margin: 30px 0;
+  color: gray;
+  line-height: 27px;
+  font-size: 18px;
+
+}
+
+.dish2bg {
+  background-color: rgb(240, 240, 240);
+}
+/* baking div */
+.baking {
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.baking p {
+  margin: 20px 0px;
+  line-height:27px ;
+}
+
+.Dish-item {
+  width: 31.5%;
+  display: inline-block;
+  padding: 10;
+}
+
+.Dish-item h4 {
+  margin: 30px 0px 0px;
+}
+
+.Dish-item p {
+  margin: 30px 0px;
+}
+
+.Dish-item img {
+  width: 100%;
+}
+/* Map */
+.map {
+  padding: 50px;
+  background-color: rgb(240, 240, 240);
+}
+.googlemap {
+  float: right;
+  margin-left: 40px;
+}
+.map h3{
+  margin-top: 10;
+}
+.map-text p {
+  color: gray;
+  line-height: 27px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.map ul {
+  color: gray;
+  margin-left: 20px;
+  list-style: none;
+}
+.map ul li{
+  margin: 15px 0px;
+  
+}
+.map ul li img {
+  width: 30px;
+  border: #353330 solid 1px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* About */
+.about {
+  text-align: left;
+  background-color: #353330;
+  padding: 50px;
+}
+
+.aboutus {
+  width: 23%;
+  display: inline-block;
+  margin: 10;
+  vertical-align: top;
+}
+.aboutus h3 {
+  margin: 30px 0px 0px;
+  color: white;
+}
+
+.aboutus p {
+  margin: 30px 0px;
+  color: #dbdbdb;
+  line-height: 27px;
+
+}
+
+.aboutus ul {
+  color: #dbdbdb;
+  margin: 15px 0px 0px;
+  list-style: none;
+}
+
+.aboutus ul li {
+  margin: 30px 0px;
+  color: #dbdbdb;
+  line-height: 27px;
+border-bottom: #5f5f5f solid 1px;
+}
+
+.aboutus1 {
+  width: 23%;
+  display: inline-block;
+  margin: 10;
+  background-image: url(Images/contact-details-map.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.aboutus1 h3 {
+  margin: 30px 0px 0px;
+  color: white;
+}
+
+.aboutus1 ul {
+  color: #dbdbdb;
+  margin: 15px 0px 0px;
+  list-style: none;
+  
+}
+.aboutus1 ul li{
+  margin: 15px 0px;
+  border-bottom: #5f5f5f solid 1px;
+  
+}
+.aboutus1 ul li img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.aboutus1 a {
+  color: #dbdbdb;
+}
+
+/* final div with logo */
+.final {
+  background-color: #1b1b1b;
+  background-size: 50% 50%;
+  height: 300;
+  text-align: center;
+}
+.final .logo {
+  margin-top: 30px;
+  width: 20%;
+}
+.final p {
+  color: white;
+  margin-top: 30;
+}
+.final img{
+  display: inline-block;
+  width: 2%;
+  margin-top: 30px;
+}
